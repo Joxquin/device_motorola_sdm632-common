@@ -12,6 +12,9 @@ pm.dexopt.bg-dexopt=everything
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # Radio
 persist.radio.aosp_usr_pref_sel=true
 persist.vendor.cne.feature=1
