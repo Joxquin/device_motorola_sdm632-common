@@ -12,6 +12,11 @@ sys.vendor.shutdown.waittime=500
 pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
 
+# Graphics
+debug.sf.disable_hwc_overlays=1
+debug.sf.enable_hwc_vds=0
+dev.pm.dyn_samplingrate=1
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
