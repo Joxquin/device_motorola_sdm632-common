@@ -62,6 +62,9 @@ persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
 persist.vendor.qcom.bluetooth.enable.splita2dp=false
 ro.qualcomm.bt.hci_transport=smd
 
+# Blur
+ro.launcher.blur.appLaunch=0
+
 # Camera
 vidc.enc.dcvs.extra-buff-count=2
 persist.vendor.camera.preview.ubwc=0
