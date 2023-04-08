@@ -1,5 +1,13 @@
+# ART
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.image-dex2oat-filter=quicken
+
 # Audio
 use.voice.path.for.pcm.voip=false
+
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
