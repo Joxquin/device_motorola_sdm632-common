@@ -290,6 +290,10 @@ on property:init.svc.zygote=running
 on property:init.svc.zygote=restarting
     stop ppd
 
+on charger
+    chown system system /sys/class/leds/red/brightness
+    write /sys/class/leds/red/brightness 255
+
 service adsprpcd /system/vendor/bin/adsprpcd
     class main
     user media
