@@ -110,6 +110,7 @@ ro.config.avoid_gfx_accel=true
 debug.hwui.skia_atrace_enabled=false
 debug.sf.disable_backpressure=0
 debug.cpurend.vsync=true
+debug.sf.enable_gl_backpressure=1
 
 # Factory reset partition
 ro.frp.pst=/dev/block/platform/soc/7824900.sdhci/by-name/frp
@@ -130,6 +131,7 @@ debug.stagefright.omx_default_rank=0
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.qualcomm.perf.cores_online=8
 
 # Play store
 ro.com.google.clientidbase.am=android-motorola
