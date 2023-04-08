@@ -5,6 +5,9 @@ dalvik.vm.image-dex2oat-filter=quicken
 # Audio
 use.voice.path.for.pcm.voip=false
 
+# Boot
+sys.vendor.shutdown.waittime=500
+
 # Dexopt
 pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
