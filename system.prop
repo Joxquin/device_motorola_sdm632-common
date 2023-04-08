@@ -12,6 +12,9 @@ sys.vendor.shutdown.waittime=500
 pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
 
+# Disable async MTE on system_server
+arm64.memtag.process.system_server=off
+
 # Graphics
 debug.sf.disable_hwc_overlays=1
 debug.sf.enable_hwc_vds=0
