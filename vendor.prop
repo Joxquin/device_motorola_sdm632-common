@@ -86,6 +86,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=msm8953
 vendor.display.disable_scaler=1
 vendor.display.use_smooth_motion=1
+vendor.display.disable_rotator_downscale=1
 
 # Factory reset partition
 ro.frp.pst=/dev/block/platform/soc/7824900.sdhci/by-name/frp
